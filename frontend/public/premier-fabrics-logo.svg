@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fabric" x1="30" y1="24" x2="224" y2="233" gradientUnits="userSpaceOnUse"><stop stop-color="#0B8471"/><stop offset=".53" stop-color="#035E52"/><stop offset="1" stop-color="#023E37"/></linearGradient>
+    <linearGradient id="needle" x1="77" y1="183" x2="187" y2="65" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB318"/><stop offset=".5" stop-color="#F99613"/><stop offset="1" stop-color="#FFD470"/></linearGradient>
+    <filter id="shadow" x="10" y="12" width="236" height="239" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#012D28" flood-opacity=".45"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="26" y="22" width="204" height="204" rx="48" fill="url(#fabric)"/>
+    <rect x="33" y="29" width="190" height="190" rx="42" stroke="#2CC9AF" stroke-opacity=".46" stroke-width="4"/>
+  </g>
+  <path d="M85 171V85C85 70 97 59 112 59H155C170 59 181 70 181 85V117" stroke="#E8FFF7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 165V101C104 94 110 88 117 88H148" stroke="#B9F1E3" stroke-width="7" stroke-linecap="round"/>
+  <path d="M154 90C181 80 198 105 190 130C183 152 157 168 129 171C104 174 81 159 84 137C87 116 112 104 137 107C166 111 188 130 195 155" stroke="#E4A51C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M72 189L176 76L188 88L85 199L69 202L72 189Z" fill="url(#needle)"/>
+  <path d="M176 76L185 64L200 80L188 88L176 76Z" fill="#FFC743"/>
+  <path d="M76 193L83 200" stroke="#FFF2C4" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="139" cy="112" r="15" stroke="#B5EBD9" stroke-width="3" stroke-dasharray="3 5"/>
+</svg>
